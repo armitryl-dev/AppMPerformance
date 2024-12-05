@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">///M</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="loginBoton">Login</string>
+    <string name="register">Register</string>
+    <string name="textoRegistrarse">Dont have an account?</string>
+    <string name="contrasenaOlvidadaTexto">Forgot password?</string>
+    <string name="textoPoweredBy">Powered By</string>
+    <string name="loginTextView">Login</string>
+    <string name="google_button_description">Login with Google</string>
+    <string name="facebook_button_description">Login with Facebook</string>
+    <string name="singup">Sing Up</string>
+    <string name="email">E-mail</string>
+    <string name="repeatPassword">Repeat password</string>
+    <string name="contacto">Contact</string>
+    <string name="whatsapp">Contact us</string>
+</resources>

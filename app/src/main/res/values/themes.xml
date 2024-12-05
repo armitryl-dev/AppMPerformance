@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FormularioLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--  Customize your light theme here.  -->
+        <!--  <item name="colorPrimary">@color/my_light_primary</item>  -->
+        <item name="editTextBackground">@drawable/rounded_edittext_background</item>
+    </style>
+
+    <style name="CustomTransparentDatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Fondo transparente -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- Color del texto principal y secundario -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Blanco -->
+        <item name="android:textColorSecondary">#B3B3B3</item> <!-- Gris claro -->
+        <!-- Color del acento para los seleccionables -->
+        <item name="android:colorAccent">#FF4081</item> <!-- Color de acento -->
+    </style>
+
+    <style name="Theme.FormularioLogin" parent="Base.Theme.FormularioLogin"/>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+        duration. -->
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+        <!-- Required for animated icons. -->
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.FormularioLogin</item>
+    </style>
+</resources>

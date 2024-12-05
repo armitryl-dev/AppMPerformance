@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">///M</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="loginBoton">Iniciar sesion</string>
+    <string name="register">Registrarse</string>
+    <string name="textoRegistrarse">¿No tienes cuenta?</string>
+    <string name="contrasenaOlvidadaTexto">¿Contraseña olvidada?</string>
+    <string name="textoPoweredBy">Powered By</string>
+    <string name="loginTextView">Iniciar sesión</string>
+    <string name="google_button_description">Iniciar sesión con Google</string>
+    <string name="facebook_button_description">Iniciar sesión con Facebook</string>
+    <string name="modelo" translatable="false">BMW M3</string>
+    <string name="serie" translatable="false">E36</string>
+    <string name="fav" translatable="false">Botón de favorito</string>
+    <string name="cv" translatable="false">321 CV</string>
+    <string name="singup">Registrarse</string>
+    <string name="email">Correo electrónico</string>
+    <string name="repeatPassword">Repita la contraseña</string>
+    <string name="contacto">Contacto</string>
+    <string name="whatsapp">Escríbenos</string>
+</resources>

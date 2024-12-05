@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreen31"
+        android:id="@+id/favoritosMain"
+        android:background="@drawable/backgroundbmw3">
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:progressDrawable="@drawable/barra_de_progreso_personalizada"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:indeterminate="false"
+            android:progressTint="@color/botones"
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_marginTop="350dp"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_layout"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:id="@+id/rv"/>
+
+    </ScrollView>
+
+</FrameLayout>
